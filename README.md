@@ -1,4 +1,4 @@
-# 🍔 Shoes Store App
+# Shoes Store App
 
 ## 💻 Tecnologias Utilizadas
 
