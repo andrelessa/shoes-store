@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
+import { Analytics } from '@vercel/analytics/react';
 
 import Routes from './routers';
 import GlobalStyles from './styles/global';
@@ -10,6 +11,7 @@ const App = (): JSX.Element => {
   return (
     <BrowserRouter>
       <CartProvider>
+        <Analytics />
         <GlobalStyles />
         <Header />
         <Routes />
